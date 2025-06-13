@@ -64,3 +64,5 @@ msbuild.wrn
 # Visual Studio 2015
 .vs/
 inventory-backend/InventoryAPI/appsettings.json
+plant-tracker-backend/PlantCareAPI/appsettings.Development.json
+plant-tracker-backend/PlantCareAPI/appsettings.json

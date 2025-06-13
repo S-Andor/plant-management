@@ -1,9 +1,9 @@
-using InventoryAPI.Data;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.AspNetCore.Authentication;
 using Microsoft.IdentityModel.Tokens;
 using System.Text;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
+using PlantCareAPI.Data; 
 
 var builder = WebApplication.CreateBuilder(args);
 

@@ -1,12 +1,12 @@
 using Microsoft.EntityFrameworkCore;
-using InventoryAPI.Models;
+using PlantCareAPI.Models;
 
-namespace InventoryAPI.Data
+namespace PlantCareAPI.Data
 {
     public class AppDbContext : DbContext
     {
         public AppDbContext(DbContextOptions<AppDbContext> options) : base(options) {}
 
-        public DbSet<InventoryItem> InventoryItems { get; set; }
+        public DbSet<Plant> Plants { get; set; }
     }
 }
